@@ -5,7 +5,12 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.starsgallery.R;
-
+/**
+ * Classe représentant une Star avec ses informations principales.
+ *
+ * @author DOSSAH Landry
+ * @version 1.0
+ */
 public class SplashActivity extends AppCompatActivity {
 
     // ImageView du logo affiché au lancement de l'app

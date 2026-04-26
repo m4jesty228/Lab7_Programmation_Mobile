@@ -4,7 +4,12 @@ import com.example.starsgallery.beans.Star;
 import com.example.starsgallery.dao.IDao;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * Classe représentant une Star avec ses informations principales.
+ *
+ * @author DOSSAH Landry
+ * @version 1.0
+ */
 // Service singleton gérant la liste des stars en mémoire
 public class StarService implements IDao<Star> {
 

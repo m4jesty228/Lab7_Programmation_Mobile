@@ -13,7 +13,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.starsgallery.R;
 import com.example.starsgallery.adapter.StarAdapter;
 import com.example.starsgallery.service.StarService;
-
+/**
+ * Classe représentant une Star avec ses informations principales.
+ *
+ * @author DOSSAH Landry
+ * @version 1.0
+ */
 public class ListActivity extends AppCompatActivity {
 
     private static final String TAG = "ListActivity";

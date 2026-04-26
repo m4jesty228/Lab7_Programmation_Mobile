@@ -1,5 +1,10 @@
 package com.example.starsgallery.dao;
-
+/**
+ * Classe représentant une Star avec ses informations principales.
+ *
+ * @author DOSSAH Landry
+ * @version 1.0
+ */
 import java.util.List;
 
 // Interface générique définissant les opérations CRUD de base

@@ -16,7 +16,10 @@ import com.example.starsgallery.service.StarService;
 import java.util.ArrayList;
 import java.util.List;
 
-// Adapter avec filtrage dynamique et popup de notation
+/**Adapter avec filtrage dynamique et popup de notation
+ * @author DOSSAH Landry
+ * @version 1.0
+ */
 public class StarAdapter extends RecyclerView.Adapter<StarAdapter.StarViewHolder> implements Filterable {
 
     private static final String TAG = "StarAdapter";

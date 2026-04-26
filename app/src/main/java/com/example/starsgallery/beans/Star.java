@@ -1,5 +1,10 @@
 package com.example.starsgallery.beans;
-
+/**
+ * Classe représentant une Star avec ses informations principales.
+ *
+ * @author DOSSAH Landry
+ * @version 1.0
+ */
 public class Star {
 
     private int starId;
@@ -16,13 +21,13 @@ public class Star {
         this.score = score;
     }
 
-    // Getters
+    // Définition des Getters
     public int getId() { return starId; }
     public String getName() { return fullName; }
     public String getImg() { return photoUrl; }
     public float getRating() { return score; }
 
-    // Setters
+    // Définition des Setters
     public void setName(String fullName) { this.fullName = fullName; }
     public void setImg(String photoUrl) { this.photoUrl = photoUrl; }
     public void setRating(float score) { this.score = score; }
