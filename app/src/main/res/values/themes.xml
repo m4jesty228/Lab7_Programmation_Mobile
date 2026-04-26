@@ -1,0 +1,9 @@
+<resources>
+    <style name="Base.Theme.StarsGallery" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#C0392B</item>
+        <item name="colorPrimaryDark">#922B21</item>
+        <item name="colorAccent">#E74C3C</item>
+    </style>
+
+    <style name="Theme.StarsGallery" parent="Base.Theme.StarsGallery" />
+</resources>
